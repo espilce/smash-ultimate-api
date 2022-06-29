@@ -1,0 +1,58 @@
+openapi: 3.0.1
+info:
+  title: Super Smash Bros. Ultimate REST Api
+  description: 'Super Smash Bros. Ultimate RESTful Api'
+  contact:
+    email: projects.eclipse@gmail.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+
+paths:
+  /character/{name}:
+    get:
+      tags:
+        - Smash Ultimate Character
+      summary: Returns Smash Bros. Ultiamte character data by name
+      description: Returns single character
+      operationId: getCharacterByName
+      parameters:
+        - name: name
+          in: path
+          description: Name of the character to return
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Character'
+        400:
+          description: Invalid ID supplied
+          content: {}
+        404:
+          description: Character not found
+          content: {}
+components:
+  schemas:
+    Character:
+      type: object
+      properties:
+        name:
+          type: string
+        groundedAttacks:
+          type: string
+        aerialAttacks:
+          type: string
+        specialAttacks:
+          type: string
+        dodgesAndRolls:
+          type: string
+        miscInfo:
+          type: string
+
+

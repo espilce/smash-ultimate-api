@@ -1,0 +1,62 @@
+{
+  "id" : 7,
+  "name": "Fox",
+  "groundedAttacks": [
+    {
+    "name" : "Jab 1",
+    "startup" : "2",
+    "onShield" : "-12",
+    "active" : "2",
+    "total": 17,
+    "note": "Transitions to Jab 2 as early as frame 5",
+    "landingLag" : 0,
+    "baseDmg" : 1.8,
+    "shieldLag" : 8,
+    "shieldStun": 3,
+    "multiHitBox" : 0
+    },
+    {
+    "name" : "Jab 2",
+    "startup" : "2",
+    "onShield" : "-16",
+    "active" : "2",
+    "total": 20,
+    "note": "Transitions to Rapid Jab as early as frame 6",
+    "landingLag" : 0,
+    "baseDmg" : 1.0,
+    "shieldLag" : 5,
+    "shieldStun": 2,
+    "multiHitBox" : 0
+    },
+    {
+    "name" : "Rapid Jab",
+    "startup" : "5/7/9...",
+    "onShield" : "--",
+    "active" : "5/7/9...",
+    "total": "--",
+    "note": "--",
+    "landingLag" : "--",
+    "baseDmg" : 0.6,
+    "shieldLag" : 4,
+    "shieldStun": "--",
+    "multiHitBox" : "--"
+    },
+    {
+    "name" : "Rapid Jab Finisher",
+    "startup" : "3",
+    "onShield" : "-32",
+    "active" : "3",
+    "total": "38",
+    "note": 0,
+    "landingLag" : "--",
+    "baseDmg" : 0.6,
+    "shieldLag" : 4,
+    "shieldStun": "--",
+    "multiHitBox" : "--"
+    }
+  ],
+  "aerialAttacks": [],
+  "specialAttacks": [],
+  "dodgesAndRolls": [],
+  "miscInfo": []
+}
