@@ -1,7 +1,8 @@
 
 # Smash Ultimate API
 
-The aim of this project is to build a rest api featuring all characters of Super Smash Bros. Ultimate.
+The aim of this project is to build a rest api featuring all characters of Super Smash Bros. Ultimate. 
+Characters have attributes mainly based on their frame data and other stats available like their weight for example.
 
 ## Endpoints
 
