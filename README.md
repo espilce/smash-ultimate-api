@@ -12,7 +12,7 @@ Example for a GET request:
 
 OperationID: getCharacterByName
 
-*context-path/character/Fox*
+*/api/v1/character/Fox*
 
 returns:
 
@@ -23,6 +23,7 @@ returns:
   "groundedAttacks": [],  
   "aerialAttacks": [],  
   "specialAttacks": [],  
+  "grabsAndThrows": [],
   "dodgesAndRolls": [],  
   "miscInfo": []  
 }
