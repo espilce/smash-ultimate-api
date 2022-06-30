@@ -7,26 +7,26 @@
     "startup" : "2",
     "onShield" : "-12",
     "active" : "2",
-    "total": 17,
+    "total": "17",
     "note": "Transitions to Jab 2 as early as frame 5",
-    "landingLag" : 0,
-    "baseDmg" : 1.8,
-    "shieldLag" : 8,
-    "shieldStun": 3,
-    "multiHitBox" : 0
+    "landingLag" : "0",
+    "baseDmg" : "1.8%",
+    "shieldLag" : "8",
+    "shieldStun": "3",
+    "additionalInfo" : "--"
     },
     {
     "name" : "Jab 2",
     "startup" : "2",
     "onShield" : "-16",
     "active" : "2",
-    "total": 20,
+    "total": "20",
     "note": "Transitions to Rapid Jab as early as frame 6",
-    "landingLag" : 0,
-    "baseDmg" : 1.0,
-    "shieldLag" : 5,
-    "shieldStun": 2,
-    "multiHitBox" : 0
+    "landingLag" : "0",
+    "baseDmg" : "1.0%",
+    "shieldLag" : "5",
+    "shieldStun": "2",
+    "additionalInfo" : "--"
     },
     {
     "name" : "Rapid Jab",
@@ -36,10 +36,10 @@
     "total": "--",
     "note": "--",
     "landingLag" : "--",
-    "baseDmg" : 0.6,
-    "shieldLag" : 4,
+    "baseDmg" : "0.6%",
+    "shieldLag" : "4",
     "shieldStun": "--",
-    "multiHitBox" : "--"
+    "additionalInfo" : "--"
     },
     {
     "name" : "Rapid Jab Finisher",
@@ -47,12 +47,12 @@
     "onShield" : "-32",
     "active" : "3",
     "total": "38",
-    "note": 0,
+    "note": "--",
     "landingLag" : "--",
-    "baseDmg" : 0.6,
-    "shieldLag" : 4,
+    "baseDmg" : "0.6%",
+    "shieldLag" : "4",
     "shieldStun": "--",
-    "multiHitBox" : "--"
+    "additionalInfo" : "--"
     },
     {
     "name" : "Forward Tilt",
@@ -140,14 +140,81 @@
     "total": "52",
     "note": "Leg intangibility on frame 6-7. Charge hold is frame 2",
     "landingLag" : "--",
-    "baseDmg" : "14.0%",
+    "baseDmg" : "14.0",
     "shieldLag" : "10",
     "shieldStun": "10",
     "additionalInfo" : "--"
     }
   ],
-  "aerialAttacks": [],
+  "aerialAttacks": [
+    {
+    "name" : "Neutral Air",
+    "startup" : "4",
+    "onShield" : "-3/-4",
+    "active" : "4-6/7-23",
+    "total": "38",
+    "note": "Autocancels on frame 1-3 and 32 onward",
+    "landingLag" : "7",
+    "baseDmg" : "9.0/6.0%",
+    "shieldLag" : "7/6",
+    "shieldStun": "4/3",
+    "additionalInfo" : "Early/Late"
+    },
+    {
+    "name" : "Forward Air",
+    "startup" : "7/11/16/21/26",
+    "onShield" : "-14",
+    "active" : "7-8/11-12/16-17/21-22/26-27",
+    "total": "43",
+    "note": "Autocancels on frame 1-3 and 32 onward",
+    "landingLag" : "18",
+    "baseDmg" : "1.8/1.2/1.72.7/4.8/2.0%",
+    "shieldLag" : "4/4/4/5/12/9",
+    "shieldStun": "2/2/2/2/3/3",
+    "additionalInfo" : "Last one is landing hitbox"
+    },
+    {
+    "name" : "Back Air",
+    "startup" : "9",
+    "onShield" : "-4",
+    "active" : "9-11",
+    "total": "48",
+    "note": "Autocancels on frame 1-6 and 18 onward",
+    "landingLag" : "9",
+    "baseDmg" : "13.0%",
+    "shieldLag" : "9",
+    "shieldStun": "9",
+    "additionalInfo" : "--"
+    },
+    {
+    "name" : "Up Air",
+    "startup" : "9/12",
+    "onShield" : "-10/-9",
+    "active" : "9-10/12-13",
+    "total": "35",
+    "note": "Autocancels on frame 1-8 and 25 onward",
+    "landingLag" : "13",
+    "baseDmg" : "5.0/10.0%",
+    "shieldLag" : "6/8",
+    "shieldStun": "3/4",
+    "additionalInfo" : "First/Second"
+    },
+    {
+    "name" : "Down Air",
+    "startup" : "5/8/11/14/17/20/23",
+    "onShield" : "-14",
+    "active" : "5-6/8-9/11-12/14-15/17-18/20-21/23/**",
+    "total": "49",
+    "note": "Landing hit on frame 1. Autocancels on frame 1-4 and 28 onward",
+    "landingLag" : "17",
+    "baseDmg" : "1.4/3.0/1.0%",
+    "shieldLag" : "9",
+    "shieldStun": "9",
+    "additionalInfo" : "--"
+    }
+  ],
   "specialAttacks": [],
+  "grabsAndThrows": [],
   "dodgesAndRolls": [],
   "miscInfo": []
 }
