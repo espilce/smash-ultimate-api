@@ -213,8 +213,204 @@
     "additionalInfo" : "--"
     }
   ],
-  "specialAttacks": [],
-  "grabsAndThrows": [],
-  "dodgesAndRolls": [],
-  "miscInfo": []
+  "specialAttacks": [
+    {
+    "name" : "Neutral B (Blaster)",
+    "startup" : "11/13/20, 9/11/18",
+    "onShield" : "-18-19/-19",
+    "active" : "11-12/13-19/20-32, 9-10/11-17/18-30",
+    "total": "36, 34",
+    "note": "Fire rate is one shot per 10 frames",
+    "landingLag" : "--",
+    "baseDmg" : "3.0/2.0/1.4%",
+    "shieldLag" : "5/4/4",
+    "shieldStun": "2/2/2",
+    "additionalInfo" : "Ground Early/Normal/Late, Air Early/Normal/Late"
+    },
+    {
+    "name" : "Side B (Fox Illusion)",
+    "startup" : "25/25",
+    "onShield" : "-20/-28",
+    "active" : "25-29/25-29",
+    "total": "55/72",
+    "note": "Fox does not suffer hitlag/shiedlag from this attack. Advantage assumes lowest altitude possible. Hitboxes actually trail behind the character and are not acutally on Fox",
+    "landingLag" : "16",
+    "baseDmg" : "8.0/5.0%",
+    "shieldLag" : "7/6",
+    "shieldStun": "3/3",
+    "additionalInfo" : "Ground/Air"
+    },
+    {
+    "name" : "Up B (Fire Fox)",
+    "startup" : "20/22/24/26/28/30/32/43/47",
+    "onShield" : "-34",
+    "active" : "120/22/24/26/28/30/32/43-46/47-72",
+    "total": "91",
+    "note": "Total frames is when traveling along the ground",
+    "landingLag" : "20",
+    "baseDmg" : "1.7/16.0%",
+    "shieldLag" : "4/10",
+    "shieldStun": "3/14",
+    "additionalInfo" : "Multi/Final"
+    },
+    {
+    "name" : "Down B (Reflector)",
+    "startup" : "3",
+    "onShield" : "-30",
+    "active" : "--",
+    "total": "36",
+    "note": "Invulnerable on frame 2-3 Reflects as early as frame 4",
+    "landingLag" : "--",
+    "baseDmg" : "2.0%",
+    "shieldLag" : "7",
+    "shieldStun": "3",
+    "additionalInfo" : "--"
+    }
+  ],
+  "grabsAndThrows": [
+    {
+    "name" : "Grab",
+    "startup" : "6",
+    "active" : "6-7",
+    "total": "36",
+    "note": "--",
+    "landingLag" : "--",
+    "baseDmg" : "--%"
+    },
+    {
+    "name" : "Dash Grab",
+    "startup" : "10",
+    "active" : "10-11",
+    "total": "44",
+    "note": "--",
+    "landingLag" : "--",
+    "baseDmg" : "--%"
+    },
+    {
+    "name" : "Pivot Grab",
+    "startup" : "11",
+    "active" : "11-12",
+    "total": "39",
+    "note": "--",
+    "landingLag" : "--",
+    "baseDmg" : "--%"
+    },
+    {
+    "name" : "Pummel",
+    "startup" : "1",
+    "total": "15",
+    "note": "Total Frames Includes 10 Frames Of Hitlag.",
+    "landingLag" : "--",
+    "baseDmg" : "--%"
+    },
+    {
+    "name" : "Forward Throw",
+    "startup" : "10/11",
+    "total": "33",
+    "note": "--",
+    "landingLag" : "--",
+    "baseDmg" : "4.0/3.0%"
+    },
+    {
+    "name" : "Backward Throw",
+    "startup" : "10/16/19/22",
+    "total": "49",
+    "note": "Victim is thrown at 10. Blaster shots at 16, 19, 22.",
+    "landingLag" : "--",
+    "baseDmg" : "2.0/2.0%"
+    },
+    {
+    "name" : "Up Throw",
+    "startup" : "7/18/21/24",
+    "total": "49",
+    "note": "Victim is thrown at 7. Blaster shots at 18, 21, 24.",
+    "landingLag" : "--",
+    "baseDmg" : "2.0/2.0%"
+    },
+    {
+    "name" : "Down Throw",
+    "startup" : "26/29/32/34",
+    "total": "54",
+    "note": "",
+    "landingLag" : "--",
+    "baseDmg" : "2.0/1.0%"
+    }
+  ],
+  "dodgesAndRolls": [
+    {
+    "name" : "Spot Dodge",
+    "total": "18/23",
+    "note": "Invulnerable on frame 3-14",
+    "landingLag" : "--"
+    },
+    {
+    "name" : "Forward Roll",
+    "total": "26",
+    "note": "Invulnerable on frame 4-12",
+    "landingLag" : "--"
+    },
+    {
+    "name" : "Backward Roll",
+    "total": "32",
+    "note": "Invulnerable on frame 4-14",
+    "landingLag" : "--"
+    },
+    {
+    "name" : "Neutral Air Dodge",
+    "total": "38",
+    "note": "Invulnerable on frame 2-26",
+    "landingLag" : "10"
+    },
+    {
+    "name" : "Air Dodge, Down",
+    "total": "54",
+    "note": "Invulnerable on frame 2-19",
+    "landingLag" : "11-19"
+    },
+    {
+    "name" : "Air Dodge, Diagonally Down",
+    "total": "59",
+    "note": "Invulnerable on frame 2-19",
+    "landingLag" : "11-19"
+    },
+    {
+    "name" : "Air Dodge, Left/Right",
+    "total": "64",
+    "note": "Invulnerable on frame 2-19",
+    "landingLag" : "11-19"
+    },
+    {
+    "name" : "Air Dodge, Diagonally Up",
+    "total": "70",
+    "note": "Invulnerable on frame 2-19",
+    "landingLag" : "11-19"
+    },
+    {
+    "name" : "Air Dodge, Up",
+    "total": "75",
+    "note": "Invulnerable on frame 2-19",
+    "landingLag" : "11-19"
+    }
+  ],
+  "miscInfo": [
+        {
+    "name" : "Stats",
+    "weight": "77",
+    "gravity": "0.230",
+    "walkSpeed" : "1.523",
+    "runSpeed" : "1.523",
+    "walkSpeed" : "2.402",
+    "initialDash" : "2.09",
+    "airSpeed" : "1.11",
+    "totalAirAcceleration" : "0.09",
+    "shFhShffFhffFrames" : "24/36/17/27",
+    "fallSpeedFastFallSpeed" : "2.1/3.36",
+    "ooSDownBAir" : "6",
+    "ooSNeutralAir" : "7",
+    "ooSDownAirUpSmash" : "8",
+    "shieldGrab" : "10",
+    "shieldDrop" : "11",
+    "jumpSquat" : "3"
+    }
+  ]
 }
